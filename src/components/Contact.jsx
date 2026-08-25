@@ -325,7 +325,7 @@ export default function Contact() {
     <section id="contact" className="py-32 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="reveal flex items-center gap-4 mb-6">
-          <span className="section-number">06 — Contact</span>
+          <span className="section-number">07 — Contact</span>
           <div className="h-px flex-1 max-w-24 bg-border" />
         </div>
 
@@ -373,17 +373,17 @@ export default function Contact() {
                 Open to opportunities
               </h3>
               <p className="font-body text-dim text-sm leading-relaxed mb-6">
-                I'm currently seeking internships, research positions, and collaborative
-                projects in AI, ML, and Software Development. If you have something
-                interesting in mind — I'd love to hear it.
+                I'm currently interning internationally at Chrisen Consulting, but I'm always
+                open to research collaborations, full-time opportunities for 2027, and
+                interesting problems to solve. If you have something in mind — I'd love to hear it.
               </p>
 
               <div className="space-y-3 mb-8">
                 {[
                   'AI / ML Engineering Roles',
-                  'Software Development Internships',
+                  'Full-Time Opportunities (2027)',
                   'Research Collaborations',
-                  'Startup Projects & Hackathons',
+                  'Interesting Problems & Hackathons',
                 ].map((item) => (
                   <div key={item} className="flex items-center gap-3">
                     <div className="w-1.5 h-1.5 rounded-full bg-jade flex-shrink-0" />
@@ -410,7 +410,7 @@ export default function Contact() {
             GT<span className="text-amber">.</span>
           </span>
           <span className="font-mono text-xs text-muted text-center">
-            © 2025 Godwin Thomas · Pune, India · Built with React + Tailwind
+            © 2026 Godwin Thomas · Pune, India · Built with React + Tailwind
           </span>
           <div className="flex items-center gap-1">
             <span className="w-1.5 h-1.5 rounded-full bg-jade animate-pulse" />

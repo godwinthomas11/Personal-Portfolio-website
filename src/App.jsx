@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
+import NowBuilding from './components/NowBuilding'
 import Projects from './components/Projects'
 import Experience from './components/Experience'
 import Skills from './components/Skills'
@@ -104,6 +105,7 @@ export default function App() {
         <main>
           <Hero />
           <About />
+          <NowBuilding />
           <Projects />
           <Experience />
           <Skills />

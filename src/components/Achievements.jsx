@@ -68,7 +68,7 @@ export default function Achievements() {
       <div className="max-w-6xl mx-auto">
         {/* Label */}
         <div className="reveal flex items-center gap-4 mb-6">
-          <span className="section-number">05 — Achievements</span>
+          <span className="section-number">06 — Achievements</span>
           <div className="h-px flex-1 max-w-24 bg-border" />
         </div>
 

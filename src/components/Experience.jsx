@@ -1,6 +1,21 @@
 const experiences = [
   {
     type: 'work',
+    role: 'AI & Software Engineering Intern',
+    company: 'Chrisen Consulting (Pty) Ltd',
+    location: 'Centurion, South Africa',
+    period: 'Jul 2026 – Present',
+    description: [
+      'Proposed and am architecting a Retrieval-Augmented Generation platform for AI-powered tender-document intelligence, after quantifying the manual process it replaces',
+      "Shipped the company's live website and an automated engineering design-verification tool, both already in use",
+      "Designed and commissioned the complete server, Active Directory domain, and network infrastructure for the company's new office",
+    ],
+    tags: ['RAG', 'LLMs', 'Python', 'Full-Stack', 'Infrastructure'],
+    color: 'amber',
+    current: true,
+  },
+  {
+    type: 'work',
     role: 'R&D Data Analysis Intern',
     company: 'Schindler India',
     location: 'Chakan, Pune',
@@ -11,7 +26,7 @@ const experiences = [
       'Collaborated with cross-functional R&D teams to streamline workflows and reporting processes',
     ],
     tags: ['Python', 'Power BI', 'SQL', 'Data Analysis'],
-    color: 'amber',
+    color: 'electric',
   },
   {
     type: 'leadership',
@@ -25,7 +40,7 @@ const experiences = [
       'Built a community of 100+ student entrepreneurs and collaborated with external startup ecosystems',
     ],
     tags: ['Leadership', 'Strategy', 'Community Building'],
-    color: 'electric',
+    color: 'jade',
   },
   {
     type: 'leadership',
@@ -73,7 +88,7 @@ export default function Experience() {
       <div className="max-w-6xl mx-auto">
         {/* Label */}
         <div className="reveal flex items-center gap-4 mb-6">
-          <span className="section-number">03 — Experience</span>
+          <span className="section-number">04 — Experience</span>
           <div className="h-px flex-1 max-w-24 bg-border" />
         </div>
 
@@ -108,6 +123,12 @@ export default function Experience() {
                           <h3 className="font-body font-semibold text-text text-base">
                             {exp.role}
                           </h3>
+                          {exp.current && (
+                            <span className="flex h-1.5 w-1.5 relative ml-0.5">
+                              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-jade opacity-75" />
+                              <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-jade" />
+                            </span>
+                          )}
                         </div>
                         <div className="flex items-center gap-2">
                           <span className="font-body text-soft text-sm">{exp.company}</span>

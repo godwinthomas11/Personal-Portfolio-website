@@ -1,8 +1,8 @@
 const stats = [
   { value: '8.44', label: 'CGPA', sub: 'B.Tech AI & DS' },
   { value: '40', label: 'Global Rank', sub: 'NASA Space Apps' },
-  { value: '3+  ', label: 'Projects', sub: 'AI & Full-Stack Systems' },
-  { value: '1', label: 'Publication', sub: 'IJRASET Research' },
+  { value: '4', label: 'Projects', sub: 'AI & Full-Stack Systems' },
+  { value: '2', label: 'Internships', sub: '1 International · South Africa' },
 ]
 
 export default function About() {
@@ -25,21 +25,21 @@ export default function About() {
             </h2>
             <div className="reveal reveal-delay-1 space-y-4 font-body text-soft leading-relaxed text-[15px]">
           <p>
-I’m a B.Tech student in Artificial Intelligence & Data Science at MIT World Peace University, focused on building intelligent systems that create real-world impact.
+I’m a final-year B.Tech student in Artificial Intelligence & Data Science at MIT World Peace University, focused on building intelligent systems that create real-world impact.
 </p>
 
 <p>
-I enjoy working at the intersection of data, systems, and problem-solving, where ideas are turned into practical and scalable solutions.
+I’m currently based in South Africa on an international internship with Chrisen Consulting, where I proposed and am architecting a Retrieval-Augmented Generation platform for an engineering consultancy — alongside shipping full-stack tools and commissioning server infrastructure for a new company office.
 </p>
 
 <p>
-Beyond code, I lead as Head of MIT-WPU’s Entrepreneurship Cell and served as University Secretary for MITWPU Perception and Outreach Student Council, building teams, driving initiatives, and turning ideas into execution.
+Beyond code, I lead as Head of MIT-WPU’s Entrepreneurship Cell and served as University Secretary for MIT-WPU’s Perception & Outreach Student Council, building teams, driving initiatives, and turning ideas into execution.
 </p>
             </div>
 
             {/* Tags */}
             <div className="reveal reveal-delay-2 flex flex-wrap gap-2 mt-8">
-              {['Python','C/C++','Java','Servlets & JSP', 'Machine Learning', 'NLP',  'Power BI', 'SQL', 'React', 'Full-Stack','Git','MVC Architecture'].map((tag) => (
+              {['Python','TypeScript','Java', 'Machine Learning', 'NLP', 'Retrieval-Augmented Generation', 'LLMs', 'Power BI', 'SQL', 'React', 'Full-Stack','Git'].map((tag) => (
                 <span
                   key={tag}
                   className="font-mono text-xs px-3 py-1.5 rounded-full border border-border text-dim hover:border-amber/40 hover:text-soft transition-all duration-300"

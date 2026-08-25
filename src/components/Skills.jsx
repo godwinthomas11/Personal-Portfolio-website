@@ -5,21 +5,23 @@ const skillCategories = [
     skills: [
       { name: 'Python', tag: 'Primary' },
       { name: 'Java', tag: 'Primary' },
-      { name: 'C / C++', tag: 'Proficient' },
+      { name: 'TypeScript', tag: 'Proficient' },
       { name: 'SQL', tag: 'Proficient' },
+      { name: 'C / C++', tag: 'Proficient' },
     ],
     accent: 'amber',
   },
   {
-    label: 'AI / ML',
+    label: 'AI, ML & Generative AI',
     icon: '⚙',
     skills: [
       { name: 'Machine Learning', tag: 'Core' },
       { name: 'NLP', tag: 'Core' },
+      { name: 'Retrieval-Augmented Generation', tag: 'Applied' },
+      { name: 'LLMs & Prompt Engineering', tag: 'Applied' },
+      { name: 'Vector Search & Embeddings', tag: 'Applied' },
       { name: 'Recommendation Systems', tag: 'Applied' },
       { name: 'Scikit-learn', tag: 'Applied' },
-      { name: 'Model Evaluation', tag: 'Applied' },
-      { name: 'Model Deployment', tag: 'Basic' },
     ],
     accent: 'electric',
   },
@@ -37,36 +39,38 @@ const skillCategories = [
     accent: 'jade',
   },
   {
-    label: 'Core CS',
-    icon: '◈',
+    label: 'Full-Stack & Backend',
+    icon: '◻',
     skills: [
-      { name: 'Data Structures', tag: 'Strong' },
-      { name: 'Algorithms', tag: 'Strong' },
-      { name: 'OOP Design', tag: 'Strong' },
-      { name: 'MVC Architecture', tag: 'Applied' },
+      { name: 'React', tag: 'Applied' },
+      { name: 'Python REST APIs', tag: 'Applied' },
+      { name: 'SQLAlchemy', tag: 'Applied' },
+      { name: 'Java Servlets / JSP', tag: 'Applied' },
+      { name: 'PostgreSQL', tag: 'Proficient' },
+      { name: 'MySQL', tag: 'Proficient' },
     ],
     accent: 'amber',
   },
   {
-    label: 'Tools & Platforms',
-    icon: '⌘',
+    label: 'Systems & Infrastructure',
+    icon: '⌂',
     skills: [
-      { name: 'Git / GitHub', tag: 'Daily' },
-      { name: 'VS Code', tag: 'Daily' },
-      { name: 'Figma', tag: 'Proficient' },
-      { name: 'Apache Tomcat', tag: 'Applied' },
+      { name: 'Windows Server', tag: 'Applied' },
+      { name: 'Active Directory', tag: 'Applied' },
+      { name: 'VPN & Networking', tag: 'Applied' },
+      { name: 'OCR & Document Processing', tag: 'Applied' },
     ],
     accent: 'electric',
   },
   {
-    label: 'Web & Frameworks',
-    icon: '◻',
+    label: 'Tools & Core CS',
+    icon: '⌘',
     skills: [
-      { name: 'Java Servlets / JSP', tag: 'Applied' },
-      { name: 'REST APIs', tag: 'Applied' },
-      { name: 'MySQL', tag: 'Proficient' },
-      { name: 'Backend Development', tag: 'Applied' },
-      { name: 'A-Frame / WebVR', tag: 'Explored' },
+      { name: 'Git / GitHub', tag: 'Daily' },
+      { name: 'VS Code', tag: 'Daily' },
+      { name: 'Data Structures & Algorithms', tag: 'Strong' },
+      { name: 'OOP Design', tag: 'Strong' },
+      { name: 'Figma', tag: 'Proficient' },
     ],
     accent: 'jade',
   },
@@ -99,7 +103,7 @@ export default function Skills() {
       <div className="max-w-6xl mx-auto">
         {/* Label */}
         <div className="reveal flex items-center gap-4 mb-6">
-          <span className="section-number">04 — Skills</span>
+          <span className="section-number">05 — Skills</span>
           <div className="h-px flex-1 max-w-24 bg-border" />
         </div>
 
@@ -163,7 +167,7 @@ export default function Skills() {
             <div>
               <div className="font-body font-medium text-text text-sm">Always learning</div>
               <div className="font-body text-dim text-xs">
-                Currently exploring: Large Language Models, RAG systems, Agentic AI
+                Currently exploring: Agentic AI workflows, MLOps, cloud deployment
               </div>
             </div>
           </div>

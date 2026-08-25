@@ -18,13 +18,14 @@ A premium, modern developer portfolio built with React + Vite + Tailwind CSS.
 
 ## ✦ Sections
 
-1. **Hero** — Animated typewriter tagline, availability status
+1. **Hero** — Animated typewriter tagline, current status badge
 2. **About** — Story + stats grid
-3. **Projects** — 4 featured projects with tech stack & badges
-4. **Experience** — Timeline layout (internship + leadership)
-5. **Skills** — Categorized with progress bars
-6. **Achievements** — NASA, research publication, events
-7. **Contact** — Links + hiring intent
+3. **Right Now** — Spotlight on current work: the Chrisen Consulting internship (RAG platform, engineering tools, infrastructure)
+4. **Projects** — 4 personal/academic projects with tech stack & badges
+5. **Experience** — Timeline layout (internships + leadership)
+6. **Skills** — Categorized by domain, including AI/GenAI and infrastructure
+7. **Achievements** — NASA, research publication, events
+8. **Contact** — Links + hiring intent
 
 ## ✦ Features
 
@@ -72,13 +73,14 @@ All content is in the component files. Key files to update:
 
 | File | What to update |
 |------|---------------|
-| `src/components/Hero.jsx` | Name, tagline, social links |
+| `src/components/Hero.jsx` | Name, tagline, social links, status badge |
 | `src/components/About.jsx` | Bio text, stats |
+| `src/components/NowBuilding.jsx` | Current work — update as internship/role progresses |
 | `src/components/Projects.jsx` | Project data, GitHub links |
 | `src/components/Experience.jsx` | Work & leadership data |
 | `src/components/Skills.jsx` | Skills & levels |
 | `src/components/Achievements.jsx` | Awards & achievements |
-| `src/components/Contact.jsx` | Email, links |
+| `src/components/Contact.jsx` | Email, links, EmailJS credentials |
 | `index.html` | SEO meta, page title |
 
 ## ✦ Deployment

@@ -6,7 +6,7 @@ const projects = [
       'An immersive WebVR platform simulating space missions with interactive learning. Selected among Top 40 global teams out of 8700+ in the NASA Space Apps Challenge — the only team from India to reach this stage.',
     impact: 'NASA Global Finalist',
     impactColor: 'electric',
-    tech: ['Unity', 'A-Frame', 'TensorFlow', 'WebVR'],
+    tech: ['Unity', 'A-Frame', 'WebVR', 'JavaScript'],
     github: 'https://github.com/godwinthomas11/Nasa-Space-Apps-Challenge',
     badge: '🚀 NASA Top 40 / 8700+ Teams',
     badgeVariant: 'blue',
@@ -40,15 +40,15 @@ const projects = [
   },
   {
     number: '04',
-    title: 'Power BI R&D Analytics Dashboard',
+    title: 'Driver Insights & GPS Speed Prediction',
     description:
-      'Enterprise-grade analytics dashboards built during internship at Schindler India. Managed Global Product Governance (GPG) system and delivered data-driven insights to cross-functional R&D teams.',
-    impact: 'Schindler India — Enterprise Use',
-    impactColor: 'amber',
-    tech: ['Power BI', 'Python', 'Pandas', 'SQL', 'DAX'],
-    github: 'https://github.com/godwin-thomas',
-    badge: '🏢 Enterprise Deployment',
-    badgeVariant: 'amber',
+      'A Random Forest model for GPS-based driver behaviour analysis and speed prediction, covering the full pipeline from preprocessing and feature engineering to evaluation and visualization.',
+    impact: 'Predictive Modeling',
+    impactColor: 'jade',
+    tech: ['Python', 'Random Forest', 'Scikit-learn', 'Pandas'],
+    github: 'https://github.com/godwinthomas11/Driver-Insights-GPS-Speed-Prediction',
+    badge: '📊 Predictive Analytics',
+    badgeVariant: 'green',
     featured: false,
   },
 ]
@@ -65,7 +65,7 @@ export default function Projects() {
       <div className="max-w-6xl mx-auto">
         {/* Section label */}
         <div className="reveal flex items-center gap-4 mb-6">
-          <span className="section-number">02 — Projects</span>
+          <span className="section-number">03 — Projects</span>
           <div className="h-px flex-1 max-w-24 bg-border" />
         </div>
 

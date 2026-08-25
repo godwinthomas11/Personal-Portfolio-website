@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 
-const roles = [ 'AI Engineer', 'Machine Learning Engineer','Software Developer', 'System Builder','Problem Solver', ]
+const roles = [ 'AI Engineer', 'Full-Stack Developer', 'Data Scientist', 'Systems Builder', 'Problem Solver', ]
 
 export default function Hero() {
   const taglineRef = useRef(null)
@@ -61,7 +61,7 @@ export default function Hero() {
             <span className="relative inline-flex rounded-full h-2 w-2 bg-jade" />
           </span>
           <span className="font-mono text-xs text-dim tracking-widest uppercase">
-            Actively Seeking Internships
+            Interning at Chrisen Consulting — South Africa
           </span>
         </div>
 
@@ -89,9 +89,9 @@ export default function Hero() {
 
         {/* One-liner */}
         <p className="reveal reveal-delay-3 font-body text-soft text-base md:text-lg max-w-xl leading-relaxed mb-12">
-          B.Tech AI & Data Science student building intelligent systems that matter.
-          <span className="text-text"> NASA Global Finalist · R&D Intern at Schindler India. </span>
-          Building Intelligent systems that solve real world problems..
+          B.Tech AI & Data Science student who designs and builds intelligent systems that matter.
+          <span className="text-text"> Currently in South Africa, architecting a Retrieval-Augmented Generation platform for an engineering consultancy. </span>
+          NASA Global Finalist · Schindler India R&D Alum.
         </p>
 
         {/* CTAs */}
@@ -139,7 +139,7 @@ export default function Hero() {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-40">
+      <div className="hidden md:flex absolute bottom-8 left-1/2 -translate-x-1/2 flex-col items-center gap-2 opacity-40">
         <span className="font-mono text-xs text-dim tracking-widest">SCROLL</span>
         <div className="w-px h-12 bg-gradient-to-b from-dim to-transparent animate-pulse" />
       </div>
